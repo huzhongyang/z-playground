@@ -1,0 +1,24 @@
+{
+  "name": "z-playground",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri:dev": "tauri dev"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.0.0-rc.4",
+    "@tauri-apps/plugin-shell": "2.0.0-rc.1",
+    "vue": "^3.5.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-rc.13",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.4",
+    "vue-tsc": "^2.1.6"
+  }
+}
