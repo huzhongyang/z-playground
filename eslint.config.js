@@ -19,6 +19,6 @@ export default antfu({
      */
     markdown: 'prettier',
   },
-  // unocss: true,
+  unocss: true,
   vue: true,
 })
